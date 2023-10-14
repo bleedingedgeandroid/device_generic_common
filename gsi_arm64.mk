@@ -58,3 +58,5 @@ PRODUCT_BRAND := BleedingEdgeAndroidTest
 PRODUCT_MODEL := BleedingEdgeAndroid on ARM64(running as GSI)
 PRODUCT_PACKAGES +=\
     Lawnchair
+PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST+= \
+    system/priv-app/Lawnchair/%
