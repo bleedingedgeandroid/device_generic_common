@@ -54,5 +54,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_release.mk)
 
 PRODUCT_NAME := gsi_arm64
 PRODUCT_DEVICE := generic_arm64
-PRODUCT_BRAND := Android
-PRODUCT_MODEL := GSI on ARM64
+PRODUCT_BRAND := BleedingEdgeAndroidTest
+PRODUCT_MODEL := BleedingEdgeAndroid on ARM64(running as GSI)
+PRODUCT_PACKAGES +=\
+    Lawnchair
